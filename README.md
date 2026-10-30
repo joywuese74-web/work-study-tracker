@@ -1,2 +1,7 @@
-# work-study-tracker
-A web app that provide real time voice assistance to help manage the activities and schedules of the the day. The platform gives an opportunity to negotiate and reschedule the time set for a particular activity
+cat > README.md << 'EOF'
+# Study Tracker
+
+A multi-user activity management platform (website + Android app) with spoken reminders and an AI scheduling assistant.
+
+See STUDY_TRACKER_PROGRESS.md for status, setup and next steps.
+EOF

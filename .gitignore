@@ -1,0 +1,24 @@
+cat > .gitignore << 'EOF'
+# Secrets — never commit
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Flutter / Android build output
+app/build/
+app/.dart_tool/
+*.apk
+*.aab
+local.properties
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+EOF
